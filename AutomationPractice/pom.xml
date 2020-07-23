@@ -3,4 +3,33 @@
   <groupId>se-training</groupId>
   <artifactId>AutomationPractice</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+
+
+<dependencies>
+
+	<!--testNG-->
+	<dependency>
+	    <groupId>org.testng</groupId>
+	    <artifactId>testng</artifactId>
+	    <version>7.1.0</version>
+	    <scope>test</scope>
+	</dependency>
+
+	<!--selenium-driver -->
+	<dependency>
+	    <groupId>org.seleniumhq.selenium</groupId>
+	    <artifactId>selenium-server</artifactId>
+	    <version>3.141.59</version>
+	</dependency>
+
+	<!-- webdrivermanager -->
+	<dependency>
+	    <groupId>io.github.bonigarcia</groupId>
+	    <artifactId>webdrivermanager</artifactId>
+	    <version>4.1.0</version>
+	</dependency>
+	
+
+</dependencies>
+
 </project>
