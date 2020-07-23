@@ -4,13 +4,12 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 import io.github.bonigarcia.wdm.WebDriverManager;
+import pageObject.MainPageBase;
 
-public class OpenBrowser {
+public class MainPage extends MainPageBase{
   @Test
-  public static void main() {
+  public void LaunchBrowser() {
   
-	WebDriverManager.chromedriver().setup();
-	WebDriver driver = new ChromeDriver();
-	driver.get("https://www.facebook.com");
+	OpenBrowser("https://www.facebook.com");
 }
 }

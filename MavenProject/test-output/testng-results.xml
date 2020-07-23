@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="175972" started-at="2020-07-22T18:29:20 PDT" finished-at="2020-07-22T18:32:16 PDT">
+  <suite name="Default suite" duration-ms="67810" started-at="2020-07-22T21:03:07 PDT" finished-at="2020-07-22T21:04:15 PDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="175972" started-at="2020-07-22T18:29:20 PDT" finished-at="2020-07-22T18:32:16 PDT">
-      <class name="testPage.OpenBrowser">
-        <test-method status="PASS" signature="main()[pri:0, instance:testPage.OpenBrowser@4f063c0a]" name="main" duration-ms="175686" started-at="2020-07-22T18:29:20 PDT" finished-at="2020-07-22T18:32:16 PDT">
+    <test name="Default test" duration-ms="67810" started-at="2020-07-22T21:03:07 PDT" finished-at="2020-07-22T21:04:15 PDT">
+      <class name="testPage.MainPage">
+        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:testPage.MainPage@1e6d1014]" name="LaunchBrowser" duration-ms="67609" started-at="2020-07-22T21:03:07 PDT" finished-at="2020-07-22T21:04:15 PDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- main -->
-      </class> <!-- testPage.OpenBrowser -->
+        </test-method> <!-- LaunchBrowser -->
+      </class> <!-- testPage.MainPage -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
