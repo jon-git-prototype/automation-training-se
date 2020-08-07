@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="60" started-at="2020-08-07T14:07:59 SGT" finished-at="2020-08-07T14:07:59 SGT">
+  <suite name="Suite" duration-ms="16984" started-at="2020-08-07T15:41:53 SGT" finished-at="2020-08-07T15:42:10 SGT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="60" started-at="2020-08-07T14:07:59 SGT" finished-at="2020-08-07T14:07:59 SGT">
+    <test name="HelloWorldTest" duration-ms="16984" started-at="2020-08-07T15:41:53 SGT" finished-at="2020-08-07T15:42:10 SGT">
       <class name="InitialTest.HelloWorld">
-        <test-method status="PASS" signature="f()[pri:0, instance:InitialTest.HelloWorld@76707e36]" name="f" duration-ms="8" started-at="2020-08-07T14:07:59 SGT" finished-at="2020-08-07T14:07:59 SGT">
+        <test-method status="PASS" signature="InitialTest()[pri:0, instance:InitialTest.HelloWorld@3fd7a715]" name="InitialTest" duration-ms="16931" started-at="2020-08-07T15:41:53 SGT" finished-at="2020-08-07T15:42:10 SGT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
+        </test-method> <!-- InitialTest -->
       </class> <!-- InitialTest.HelloWorld -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- HelloWorldTest -->
+  </suite> <!-- Suite -->
 </testng-results>
