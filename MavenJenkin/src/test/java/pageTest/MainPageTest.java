@@ -1,4 +1,4 @@
-package InitialTest;
+package pageTest;
 
 import org.testng.annotations.Test;
 import pageObject.MainPageBase;
@@ -11,4 +11,9 @@ public class MainPageTest extends MainPageBase{
 	  OpenBrowser("http://automationpractice.com/");
   }
   
+  @Test
+  public void AddToCart() {
+	  HoverOver();
+	  
+  }
 }

@@ -14,5 +14,9 @@ public class MainPageBase {
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get(strURL);
-  }
+	}
+	
+	public void HoverOver() {
+		 
+	}
 }
