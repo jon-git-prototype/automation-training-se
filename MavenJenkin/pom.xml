@@ -48,7 +48,8 @@
 			<configuration>
 				<suiteXmlFiles>
 					<!-- TestNG suite XML files -->
-					<suiteXmlFile>lib\testNG.xml</suiteXmlFile>
+					<!--lib\testNG.xml</suiteXmlFile> -->
+					<suiteXmlFile>lib\LaunchPage.xml</suiteXmlFile>
 				</suiteXmlFiles>
 			</configuration>
 		</plugin>

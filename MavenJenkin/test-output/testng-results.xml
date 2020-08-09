@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="16761" started-at="2020-08-07T19:24:07 SGT" finished-at="2020-08-07T19:24:24 SGT">
+  <suite name="Default suite" duration-ms="23458" started-at="2020-08-09T14:08:40 SGT" finished-at="2020-08-09T14:09:04 SGT">
     <groups>
     </groups>
-    <test name="HelloWorldTest" duration-ms="16761" started-at="2020-08-07T19:24:07 SGT" finished-at="2020-08-07T19:24:24 SGT">
-      <class name="InitialTest.HelloWorld">
-        <test-method status="PASS" signature="InitialTest()[pri:0, instance:InitialTest.HelloWorld@3fd7a715]" name="InitialTest" duration-ms="16711" started-at="2020-08-07T19:24:07 SGT" finished-at="2020-08-07T19:24:24 SGT">
+    <test name="Default test" duration-ms="23458" started-at="2020-08-09T14:08:40 SGT" finished-at="2020-08-09T14:09:04 SGT">
+      <class name="InitialTest.MainPageTest">
+        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:InitialTest.MainPageTest@711f39f9]" name="LaunchBrowser" duration-ms="23366" started-at="2020-08-09T14:08:40 SGT" finished-at="2020-08-09T14:09:04 SGT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- InitialTest -->
-      </class> <!-- InitialTest.HelloWorld -->
-    </test> <!-- HelloWorldTest -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- LaunchBrowser -->
+      </class> <!-- InitialTest.MainPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
