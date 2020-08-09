@@ -48,7 +48,7 @@
 			<configuration>
 				<suiteXmlFiles>
 					<!-- TestNG suite XML files -->
-					<suiteXmlFile>testNG.xml</suiteXmlFile>
+					<suiteXmlFile>lib\testNG.xml</suiteXmlFile>
 				</suiteXmlFiles>
 			</configuration>
 		</plugin>
