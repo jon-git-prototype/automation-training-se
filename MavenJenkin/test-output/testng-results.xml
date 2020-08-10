@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="23458" started-at="2020-08-09T14:08:40 SGT" finished-at="2020-08-09T14:09:04 SGT">
+  <suite name="Default suite" duration-ms="21054" started-at="2020-08-10T08:18:58 SGT" finished-at="2020-08-10T08:19:19 SGT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="23458" started-at="2020-08-09T14:08:40 SGT" finished-at="2020-08-09T14:09:04 SGT">
-      <class name="InitialTest.MainPageTest">
-        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:InitialTest.MainPageTest@711f39f9]" name="LaunchBrowser" duration-ms="23366" started-at="2020-08-09T14:08:40 SGT" finished-at="2020-08-09T14:09:04 SGT">
+    <test name="Default test" duration-ms="21054" started-at="2020-08-10T08:18:58 SGT" finished-at="2020-08-10T08:19:19 SGT">
+      <class name="pageTest.MainPageTest">
+        <test-method status="PASS" signature="AddToCart()[pri:0, instance:pageTest.MainPageTest@711f39f9]" name="AddToCart" duration-ms="17" started-at="2020-08-10T08:18:58 SGT" finished-at="2020-08-10T08:18:58 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddToCart -->
+        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:pageTest.MainPageTest@711f39f9]" name="LaunchBrowser" duration-ms="20898" started-at="2020-08-10T08:18:58 SGT" finished-at="2020-08-10T08:19:19 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchBrowser -->
-      </class> <!-- InitialTest.MainPageTest -->
+      </class> <!-- pageTest.MainPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

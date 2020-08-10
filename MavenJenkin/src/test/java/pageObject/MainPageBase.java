@@ -5,18 +5,11 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class MainPageBase {
+	protected static WebDriver driver;
 	
-	public static WebDriver driver; 
-
-	public void OpenBrowser(String strURL) {
-		
-		WebDriverManager.chromedriver().setup();
-		driver = new ChromeDriver();
-		driver.manage().window().maximize();
-		driver.get(strURL);
-	}
 	
 	public void HoverOver() {
-		 
+		
+		
 	}
 }

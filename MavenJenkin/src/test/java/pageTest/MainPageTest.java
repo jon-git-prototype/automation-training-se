@@ -2,8 +2,9 @@ package pageTest;
 
 import org.testng.annotations.Test;
 import pageObject.MainPageBase;
+import pageObject.PageObjectBase;
 
-public class MainPageTest extends MainPageBase{
+public class MainPageTest extends PageObjectBase{
  
 	
   @Test
@@ -13,7 +14,7 @@ public class MainPageTest extends MainPageBase{
   
   @Test
   public void AddToCart() {
-	  HoverOver();
+	  //HoverOver();
 	  
   }
 }
