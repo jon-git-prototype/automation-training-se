@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="21054" started-at="2020-08-10T08:18:58 SGT" finished-at="2020-08-10T08:19:19 SGT">
+  <suite name="Default suite" duration-ms="20145" started-at="2020-08-10T18:27:22 SGT" finished-at="2020-08-10T18:27:42 SGT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="21054" started-at="2020-08-10T08:18:58 SGT" finished-at="2020-08-10T08:19:19 SGT">
-      <class name="pageTest.MainPageTest">
-        <test-method status="PASS" signature="AddToCart()[pri:0, instance:pageTest.MainPageTest@711f39f9]" name="AddToCart" duration-ms="17" started-at="2020-08-10T08:18:58 SGT" finished-at="2020-08-10T08:18:58 SGT">
+    <test name="Default test" duration-ms="20145" started-at="2020-08-10T18:27:22 SGT" finished-at="2020-08-10T18:27:42 SGT">
+      <class name="pageTest.SignInPageTest">
+        <test-method status="PASS" signature="LoginInValidUser()[pri:0, instance:pageTest.SignInPageTest@53f65459]" name="LoginInValidUser" duration-ms="19988" started-at="2020-08-10T18:27:22 SGT" finished-at="2020-08-10T18:27:42 SGT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AddToCart -->
-        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:pageTest.MainPageTest@711f39f9]" name="LaunchBrowser" duration-ms="20898" started-at="2020-08-10T08:18:58 SGT" finished-at="2020-08-10T08:19:19 SGT">
+        </test-method> <!-- LoginInValidUser -->
+        <test-method status="PASS" signature="ValidateUser()[pri:0, instance:pageTest.SignInPageTest@53f65459]" name="ValidateUser" duration-ms="104" started-at="2020-08-10T18:27:42 SGT" finished-at="2020-08-10T18:27:42 SGT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LaunchBrowser -->
-      </class> <!-- pageTest.MainPageTest -->
+        </test-method> <!-- ValidateUser -->
+      </class> <!-- pageTest.SignInPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

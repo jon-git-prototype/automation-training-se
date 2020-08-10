@@ -49,7 +49,7 @@
 				<suiteXmlFiles>
 					<!-- TestNG suite XML files -->
 					<!--lib\testNG.xml</suiteXmlFile> -->
-					<suiteXmlFile>lib\LaunchPage.xml</suiteXmlFile>
+					<suiteXmlFile>lib\SignInPage.xml</suiteXmlFile>
 				</suiteXmlFiles>
 			</configuration>
 		</plugin>
