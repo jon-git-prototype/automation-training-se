@@ -2,20 +2,60 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="20145" started-at="2020-08-10T18:27:22 SGT" finished-at="2020-08-10T18:27:42 SGT">
+  <suite name="Default suite" duration-ms="74" started-at="2020-08-11T14:08:23 SGT" finished-at="2020-08-11T14:08:23 SGT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="20145" started-at="2020-08-10T18:27:22 SGT" finished-at="2020-08-10T18:27:42 SGT">
-      <class name="pageTest.SignInPageTest">
-        <test-method status="PASS" signature="LoginInValidUser()[pri:0, instance:pageTest.SignInPageTest@53f65459]" name="LoginInValidUser" duration-ms="19988" started-at="2020-08-10T18:27:22 SGT" finished-at="2020-08-10T18:27:42 SGT">
+    <test name="Default test" duration-ms="74" started-at="2020-08-11T14:08:23 SGT" finished-at="2020-08-11T14:08:23 SGT">
+      <class name="pageTest.AnnotationTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:pageTest.AnnotationTest@64729b1e]" name="beforeSuite" is-config="true" duration-ms="14" started-at="2020-08-11T14:08:23 SGT" finished-at="2020-08-11T14:08:23 SGT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginInValidUser -->
-        <test-method status="PASS" signature="ValidateUser()[pri:0, instance:pageTest.SignInPageTest@53f65459]" name="ValidateUser" duration-ms="104" started-at="2020-08-10T18:27:42 SGT" finished-at="2020-08-10T18:27:42 SGT">
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:pageTest.AnnotationTest@64729b1e]" name="beforeTest" is-config="true" duration-ms="5" started-at="2020-08-11T14:08:23 SGT" finished-at="2020-08-11T14:08:23 SGT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ValidateUser -->
-      </class> <!-- pageTest.SignInPageTest -->
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:pageTest.AnnotationTest@64729b1e]" name="beforeClass" is-config="true" duration-ms="1" started-at="2020-08-11T14:08:23 SGT" finished-at="2020-08-11T14:08:23 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:pageTest.AnnotationTest@64729b1e]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-08-11T14:08:23 SGT" finished-at="2020-08-11T14:08:23 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testCase1()[pri:0, instance:pageTest.AnnotationTest@64729b1e]" name="testCase1" duration-ms="7" started-at="2020-08-11T14:08:23 SGT" finished-at="2020-08-11T14:08:23 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:pageTest.AnnotationTest@64729b1e]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-08-11T14:08:23 SGT" finished-at="2020-08-11T14:08:23 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testCase2()[pri:0, instance:pageTest.AnnotationTest@64729b1e]" name="testCase2" duration-ms="2" started-at="2020-08-11T14:08:23 SGT" finished-at="2020-08-11T14:08:23 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:pageTest.AnnotationTest@64729b1e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-08-11T14:08:23 SGT" finished-at="2020-08-11T14:08:23 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:pageTest.AnnotationTest@64729b1e]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-08-11T14:08:23 SGT" finished-at="2020-08-11T14:08:23 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:pageTest.AnnotationTest@64729b1e]" name="afterClass" is-config="true" duration-ms="1" started-at="2020-08-11T14:08:23 SGT" finished-at="2020-08-11T14:08:23 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:pageTest.AnnotationTest@64729b1e]" name="afterTest" is-config="true" duration-ms="1" started-at="2020-08-11T14:08:23 SGT" finished-at="2020-08-11T14:08:23 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:pageTest.AnnotationTest@64729b1e]" name="afterSuite" is-config="true" duration-ms="0" started-at="2020-08-11T14:08:23 SGT" finished-at="2020-08-11T14:08:23 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- pageTest.AnnotationTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

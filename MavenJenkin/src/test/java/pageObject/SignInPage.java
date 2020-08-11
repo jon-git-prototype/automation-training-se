@@ -9,6 +9,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class SignInPage {
 	protected static WebDriver driver;
 	
+	//Open the URL
 	public void LaunchBrowser(String strURL) {
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
