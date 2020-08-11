@@ -1,9 +1,7 @@
 package tests;
 
-import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.*;
-
 import io.appium.java_client.remote.MobileCapabilityType;
 
 public class BaseClass {
