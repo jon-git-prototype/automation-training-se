@@ -5,8 +5,6 @@
     <classes>
       <class name="tests.CalculatorDemo">
         <methods>
-          <include name="testCal"/>
-          <include name="teardown"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- tests.CalculatorDemo -->
