@@ -2,6 +2,8 @@ package tests;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.touch.TouchActions;
 //import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
@@ -10,9 +12,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import io.appium.java_client.AppiumDriver;
-import io.appium.java_client.MobileDriver;
 import io.appium.java_client.MobileElement;
-import io.appium.java_client.remote.MobileCapabilityType;
 
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -30,7 +30,7 @@ public class CalculatorDemo {
         DesiredCapabilities capabilities = new DesiredCapabilities();
         //capabilities.setCapability("BROWSER_NAME", "Emulator2");
         capabilities.setCapability("deviceName","Emulator3");
-        capabilities.setCapability("UDID", "emulator-5554");
+        capabilities.setCapability("UDID", "emulator-5556");
         capabilities.setCapability("platformName","Android");
         capabilities.setCapability("platformVersion", "9");
  
@@ -60,7 +60,7 @@ public class CalculatorDemo {
         four.click();
         MobileElement equalTo = driver.findElement(By.id("com.android.calculator2:id/eq"));
         equalTo.click();   
-        //locate the edit box of the calculator by using By.tagName()
+         //locate the edit box of the calculator by using By.tagName()
         //MobileElement results=driver.findElement(By.id("com.android.calculator2:id/formula"));
         MobileElement results1=driver.findElement(By.id("com.android.calculator2:id/result"));
         
@@ -68,6 +68,7 @@ public class CalculatorDemo {
         assert results1.getText().toString().equals("6"):"Actual value is : "
                 +results1.getText()+" did not match with expected value: 6";
     }
+
  
  /*   @AfterClass
     public void teardown(){
