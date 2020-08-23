@@ -7,6 +7,7 @@
         <methods>
           <include name="LaunchPage"/>
           <include name="addToCart"/>
+          <include name="selectBlouse"/>
         </methods>
       </class> <!-- pageTest.MainPage -->
     </classes>

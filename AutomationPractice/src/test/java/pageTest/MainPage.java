@@ -1,5 +1,7 @@
 package pageTest;
 
+import java.util.List;
+
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -38,22 +40,26 @@ public class MainPage extends MainPageBase {
   public void addToCart() throws InterruptedException {
 	  
 	  Actions action = new Actions(driver);
-	  Thread.sleep(7000);	
-	  //driver.switchTo().
-	  //WebElement add2Cart = driver.findElement(By.xpath("/html/body/div/div/div[3]/form/div/div[3]/div[1]/p/button"));
-	  //action.moveToElement(add2Cart);
-	 // add2Cart.click();
+	  Thread.sleep(7000);
+	  driver.switchTo().frame(1);
+	  WebElement add2Cart = driver.findElement(By.name("Submit"));
+	  action.moveToElement(add2Cart);
+	  add2Cart.click();
 	  
 	 //WebElement frameID = driver.findElement(By.xpath("//*[@id=\"fancybox-frame1597910408291\"]"));
 	  //driver.switchTo().frame(frameID);
 	  //driver.findElement(By.name("Submit")).click();
-	  
-	  String frame = driver.getTitle();
-	  System.out.println(frame);
-	  
-	  Alert alerts = driver.switchTo().alert();
-	  String alertM = driver.switchTo().alert().getText();
-	  System.out.println(alertM);
+	  //driver.switchTo().defaultContent();
+	  final List<WebElement> iframes = driver.findElements(By.id("layer_cart"));
+	  System.out.println(iframes);
+	  //driver.switchTo().defaultContent();
+	  //driver.findElements(by)
+	  driver.switchTo().activeElement();
+	  WebElement checkOut = driver.findElement(By.xpath("//*[@id=\"layer_cart\"]/div[1]/div[2]/div[4]/a"));
+	  checkOut.click();
+	  //Alert alerts = driver.switchTo().alert();
+	  //String alertM = driver.switchTo().alert().getText();
+	  //System.out.println(alertM);
 	  
   }
 }
