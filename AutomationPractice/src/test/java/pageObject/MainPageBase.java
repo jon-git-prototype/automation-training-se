@@ -5,8 +5,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class MainPageBase {
-	
-	public static WebDriver driver;
+	public WebDriver driver;
 
 	public void OpenBrowser(String strURL) {
 		

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test thread-count="5" name="HelloWorldTest(failed)">
+  <test thread-count="5" name="SignInPage(failed)">
     <classes>
-      <class name="InitialTest.HelloWorld">
+      <class name="pageTest.SignInPageTest">
         <methods>
-          <include name="InitialTest"/>
+          <include name="ValidateUser"/>
         </methods>
-      </class> <!-- InitialTest.HelloWorld -->
+      </class> <!-- pageTest.SignInPageTest -->
     </classes>
-  </test> <!-- HelloWorldTest(failed) -->
+  </test> <!-- SignInPage(failed) -->
 </suite> <!-- Failed suite [Suite] -->

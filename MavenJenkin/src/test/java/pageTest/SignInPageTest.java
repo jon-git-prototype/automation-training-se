@@ -17,7 +17,7 @@ public class SignInPageTest extends SignInPage {
 @Test
 	public void ValidateUser() {
 	  MainPage mainpage = new MainPage(driver);
-	  Assert.assertEquals(mainpage.getMessageText(), "Welcome Admin");
+	  Assert.assertEquals(mainpage.getMessageText(), "Welcome Linda");
   	}
   
 
