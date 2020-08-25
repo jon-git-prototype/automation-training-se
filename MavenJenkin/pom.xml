@@ -57,7 +57,7 @@
 				<suiteXmlFiles>
 					<!-- TestNG suite XML files -->
 					<!--lib\testNG.xml</suiteXmlFile> -->
-					<suiteXmlFile>lib\SignInPage.xml</suiteXmlFile>
+					<suiteXmlFile>TestNG.xml</suiteXmlFile>
 				</suiteXmlFiles>
 			</configuration>
 		</plugin>

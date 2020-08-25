@@ -8,7 +8,7 @@ public class MainPage {
 	  protected static WebDriver driver;
 
 	  // <h1>Hello userName</h1>
-	  private By messageBy = By.xpath("//a[text()=\"Welcome Admin\"]");
+	  private By messageBy = By.xpath("//a[text()=\"Welcome Linda\"]");
 	  
 	  public MainPage(WebDriver driver){
 	    this.driver = driver;

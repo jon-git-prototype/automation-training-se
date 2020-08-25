@@ -1,25 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="33037" started-at="2020-08-24T11:16:24 SGT" finished-at="2020-08-24T11:16:57 SGT">
+  <suite name="Default suite" duration-ms="38382" started-at="2020-08-25T14:19:26 SGT" finished-at="2020-08-25T14:20:04 SGT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="33037" started-at="2020-08-24T11:16:24 SGT" finished-at="2020-08-24T11:16:57 SGT">
-      <class name="pageTest.MainPage">
-        <test-method status="PASS" signature="LaunchPage()[pri:0, instance:pageTest.MainPage@10bbd20a]" name="LaunchPage" is-config="true" duration-ms="15406" started-at="2020-08-24T11:16:24 SGT" finished-at="2020-08-24T11:16:39 SGT">
+    <test name="Default test" duration-ms="38382" started-at="2020-08-25T14:19:26 SGT" finished-at="2020-08-25T14:20:04 SGT">
+      <class name="pageTest.LoginFormTest">
+        <test-method status="PASS" signature="setupPage()[pri:0, instance:pageTest.LoginFormTest@3b088d51]" name="setupPage" is-config="true" duration-ms="20066" started-at="2020-08-25T14:19:26 SGT" finished-at="2020-08-25T14:19:46 SGT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LaunchPage -->
-        <test-method status="PASS" signature="selectBlouse()[pri:1, instance:pageTest.MainPage@10bbd20a]" name="selectBlouse" duration-ms="5505" started-at="2020-08-24T11:16:39 SGT" finished-at="2020-08-24T11:16:45 SGT">
+        </test-method> <!-- setupPage -->
+        <test-method status="PASS" signature="signInSection()[pri:1, instance:pageTest.LoginFormTest@3b088d51]" name="signInSection" duration-ms="1583" started-at="2020-08-25T14:19:46 SGT" finished-at="2020-08-25T14:19:48 SGT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- selectBlouse -->
-        <test-method status="PASS" signature="addToCart()[pri:2, instance:pageTest.MainPage@10bbd20a]" name="addToCart" duration-ms="12070" started-at="2020-08-24T11:16:45 SGT" finished-at="2020-08-24T11:16:57 SGT">
+        </test-method> <!-- signInSection -->
+        <test-method status="PASS" signature="loginWithoutCredentials()[pri:2, instance:pageTest.LoginFormTest@3b088d51]" name="loginWithoutCredentials" duration-ms="6211" started-at="2020-08-25T14:19:48 SGT" finished-at="2020-08-25T14:19:54 SGT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addToCart -->
-      </class> <!-- pageTest.MainPage -->
+        </test-method> <!-- loginWithoutCredentials -->
+        <test-method status="PASS" signature="loginWithInvalidCredentials()[pri:3, instance:pageTest.LoginFormTest@3b088d51]" name="loginWithInvalidCredentials" duration-ms="5419" started-at="2020-08-25T14:19:54 SGT" finished-at="2020-08-25T14:19:59 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidCredentials -->
+        <test-method status="PASS" signature="invalidEmailFormat()[pri:4, instance:pageTest.LoginFormTest@3b088d51]" name="invalidEmailFormat" duration-ms="1863" started-at="2020-08-25T14:19:59 SGT" finished-at="2020-08-25T14:20:01 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidEmailFormat -->
+        <test-method status="PASS" signature="successfulLogIn()[pri:5, instance:pageTest.LoginFormTest@3b088d51]" name="successfulLogIn" duration-ms="1941" started-at="2020-08-25T14:20:01 SGT" finished-at="2020-08-25T14:20:03 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successfulLogIn -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:pageTest.LoginFormTest@3b088d51]" name="tearDown" is-config="true" duration-ms="1209" started-at="2020-08-25T14:20:03 SGT" finished-at="2020-08-25T14:20:04 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- pageTest.LoginFormTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

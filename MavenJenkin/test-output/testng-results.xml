@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="15520" started-at="2020-08-24T12:32:43 SGT" finished-at="2020-08-24T12:32:58 SGT">
+  <suite name="Default suite" duration-ms="17502" started-at="2020-08-24T12:40:36 SGT" finished-at="2020-08-24T12:40:53 SGT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="15520" started-at="2020-08-24T12:32:43 SGT" finished-at="2020-08-24T12:32:58 SGT">
+    <test name="Default test" duration-ms="17502" started-at="2020-08-24T12:40:36 SGT" finished-at="2020-08-24T12:40:53 SGT">
       <class name="pageTest.SignInPageTest">
-        <test-method status="PASS" signature="LoginInValidUser()[pri:0, instance:pageTest.SignInPageTest@59e5ddf]" name="LoginInValidUser" duration-ms="15398" started-at="2020-08-24T12:32:43 SGT" finished-at="2020-08-24T12:32:58 SGT">
+        <test-method status="PASS" signature="LoginInValidUser()[pri:0, instance:pageTest.SignInPageTest@59e5ddf]" name="LoginInValidUser" duration-ms="17342" started-at="2020-08-24T12:40:36 SGT" finished-at="2020-08-24T12:40:53 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginInValidUser -->
-        <test-method status="FAIL" signature="ValidateUser()[pri:0, instance:pageTest.SignInPageTest@59e5ddf]" name="ValidateUser" duration-ms="59" started-at="2020-08-24T12:32:58 SGT" finished-at="2020-08-24T12:32:58 SGT">
+        <test-method status="FAIL" signature="ValidateUser()[pri:0, instance:pageTest.SignInPageTest@59e5ddf]" name="ValidateUser" duration-ms="80" started-at="2020-08-24T12:40:53 SGT" finished-at="2020-08-24T12:40:53 SGT">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()="Welcome Admin"]"}
@@ -20,8 +20,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-526FS2U', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\j_tol\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54069}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 9fba0e933c2bea40bd93c8889be5f935
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\j_tol\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54978}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 3ba9708850a089afbc984733ec28a903
 *** Element info: {Using=xpath, value=//a[text()="Welcome Admin"]}]]>
             </message>
             <full-stacktrace>
@@ -31,8 +31,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-526FS2U', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\j_tol\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54069}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 9fba0e933c2bea40bd93c8889be5f935
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\j_tol\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54978}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 3ba9708850a089afbc984733ec28a903
 *** Element info: {Using=xpath, value=//a[text()="Welcome Admin"]}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
