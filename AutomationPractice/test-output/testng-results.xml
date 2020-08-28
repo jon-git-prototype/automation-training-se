@@ -1,41 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="38382" started-at="2020-08-25T14:19:26 SGT" finished-at="2020-08-25T14:20:04 SGT">
+  <suite name="Default suite" duration-ms="29355" started-at="2020-08-25T16:36:54 SGT" finished-at="2020-08-25T16:37:24 SGT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="38382" started-at="2020-08-25T14:19:26 SGT" finished-at="2020-08-25T14:20:04 SGT">
-      <class name="pageTest.LoginFormTest">
-        <test-method status="PASS" signature="setupPage()[pri:0, instance:pageTest.LoginFormTest@3b088d51]" name="setupPage" is-config="true" duration-ms="20066" started-at="2020-08-25T14:19:26 SGT" finished-at="2020-08-25T14:19:46 SGT">
+    <test name="Default test" duration-ms="29355" started-at="2020-08-25T16:36:54 SGT" finished-at="2020-08-25T16:37:24 SGT">
+      <class name="pageTest.CreateAccountTest">
+        <test-method status="PASS" signature="setupPage()[pri:0, instance:pageTest.CreateAccountTest@53f65459]" name="setupPage" is-config="true" duration-ms="21268" started-at="2020-08-25T16:36:55 SGT" finished-at="2020-08-25T16:37:16 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupPage -->
-        <test-method status="PASS" signature="signInSection()[pri:1, instance:pageTest.LoginFormTest@3b088d51]" name="signInSection" duration-ms="1583" started-at="2020-08-25T14:19:46 SGT" finished-at="2020-08-25T14:19:48 SGT">
+        <test-method status="PASS" signature="createAccountWindow()[pri:1, instance:pageTest.CreateAccountTest@53f65459]" name="createAccountWindow" duration-ms="1792" started-at="2020-08-25T16:37:16 SGT" finished-at="2020-08-25T16:37:18 SGT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- signInSection -->
-        <test-method status="PASS" signature="loginWithoutCredentials()[pri:2, instance:pageTest.LoginFormTest@3b088d51]" name="loginWithoutCredentials" duration-ms="6211" started-at="2020-08-25T14:19:48 SGT" finished-at="2020-08-25T14:19:54 SGT">
+        </test-method> <!-- createAccountWindow -->
+        <test-method status="PASS" signature="authenticateEmail()[pri:2, instance:pageTest.CreateAccountTest@53f65459]" name="authenticateEmail" duration-ms="6222" started-at="2020-08-25T16:37:18 SGT" finished-at="2020-08-25T16:37:24 SGT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginWithoutCredentials -->
-        <test-method status="PASS" signature="loginWithInvalidCredentials()[pri:3, instance:pageTest.LoginFormTest@3b088d51]" name="loginWithInvalidCredentials" duration-ms="5419" started-at="2020-08-25T14:19:54 SGT" finished-at="2020-08-25T14:19:59 SGT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginWithInvalidCredentials -->
-        <test-method status="PASS" signature="invalidEmailFormat()[pri:4, instance:pageTest.LoginFormTest@3b088d51]" name="invalidEmailFormat" duration-ms="1863" started-at="2020-08-25T14:19:59 SGT" finished-at="2020-08-25T14:20:01 SGT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invalidEmailFormat -->
-        <test-method status="PASS" signature="successfulLogIn()[pri:5, instance:pageTest.LoginFormTest@3b088d51]" name="successfulLogIn" duration-ms="1941" started-at="2020-08-25T14:20:01 SGT" finished-at="2020-08-25T14:20:03 SGT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- successfulLogIn -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:pageTest.LoginFormTest@3b088d51]" name="tearDown" is-config="true" duration-ms="1209" started-at="2020-08-25T14:20:03 SGT" finished-at="2020-08-25T14:20:04 SGT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- pageTest.LoginFormTest -->
+        </test-method> <!-- authenticateEmail -->
+      </class> <!-- pageTest.CreateAccountTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
