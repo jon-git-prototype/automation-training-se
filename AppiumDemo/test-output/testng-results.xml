@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18715" started-at="2020-08-13T10:40:07 SGT" finished-at="2020-08-13T10:40:25 SGT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18715" started-at="2020-08-13T10:40:07 SGT" finished-at="2020-08-13T10:40:25 SGT">
+      <class name="tests.WishTest">
+        <test-method status="PASS" signature="GetStarted()[pri:0, instance:tests.WishTest@17579e0f]" name="GetStarted" duration-ms="18666" started-at="2020-08-13T10:40:07 SGT" finished-at="2020-08-13T10:40:25 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetStarted -->
+      </class> <!-- tests.WishTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
