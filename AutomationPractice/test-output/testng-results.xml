@@ -2,23 +2,27 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="29355" started-at="2020-08-25T16:36:54 SGT" finished-at="2020-08-25T16:37:24 SGT">
+  <suite name="Default suite" duration-ms="46509" started-at="2020-09-02T17:52:50 SGT" finished-at="2020-09-02T17:53:36 SGT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="29355" started-at="2020-08-25T16:36:54 SGT" finished-at="2020-08-25T16:37:24 SGT">
+    <test name="Default test" duration-ms="46509" started-at="2020-09-02T17:52:50 SGT" finished-at="2020-09-02T17:53:36 SGT">
       <class name="pageTest.CreateAccountTest">
-        <test-method status="PASS" signature="setupPage()[pri:0, instance:pageTest.CreateAccountTest@53f65459]" name="setupPage" is-config="true" duration-ms="21268" started-at="2020-08-25T16:36:55 SGT" finished-at="2020-08-25T16:37:16 SGT">
+        <test-method status="PASS" signature="setupPage()[pri:0, instance:pageTest.CreateAccountTest@3b088d51]" name="setupPage" is-config="true" duration-ms="37395" started-at="2020-09-02T17:52:50 SGT" finished-at="2020-09-02T17:53:27 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupPage -->
-        <test-method status="PASS" signature="createAccountWindow()[pri:1, instance:pageTest.CreateAccountTest@53f65459]" name="createAccountWindow" duration-ms="1792" started-at="2020-08-25T16:37:16 SGT" finished-at="2020-08-25T16:37:18 SGT">
+        <test-method status="PASS" signature="createAccountWindow()[pri:1, instance:pageTest.CreateAccountTest@3b088d51]" name="createAccountWindow" duration-ms="1460" started-at="2020-09-02T17:53:27 SGT" finished-at="2020-09-02T17:53:29 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createAccountWindow -->
-        <test-method status="PASS" signature="authenticateEmail()[pri:2, instance:pageTest.CreateAccountTest@53f65459]" name="authenticateEmail" duration-ms="6222" started-at="2020-08-25T16:37:18 SGT" finished-at="2020-08-25T16:37:24 SGT">
+        <test-method status="PASS" signature="authenticateEmail()[pri:2, instance:pageTest.CreateAccountTest@3b088d51]" name="authenticateEmail" duration-ms="6717" started-at="2020-09-02T17:53:29 SGT" finished-at="2020-09-02T17:53:36 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- authenticateEmail -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:pageTest.CreateAccountTest@3b088d51]" name="tearDown" is-config="true" duration-ms="778" started-at="2020-09-02T17:53:36 SGT" finished-at="2020-09-02T17:53:36 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- pageTest.CreateAccountTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
