@@ -63,6 +63,9 @@ public class CreateAccountTest {
 
 	}
 	
+	public void newTest() {
+		System.out.println("Test");
+	}
 	
 	@AfterClass
 	public void tearDown() {
